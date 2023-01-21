@@ -1,4 +1,4 @@
-.place__website_url-heading {
+.place__url-heading {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -10,12 +10,12 @@
   padding-bottom: 12px;
 }
 @media screen and (max-width: 768px) {
-  .place__website_url-heading {
+  .place__url-heading {
     line-height: 100%;
   }
 }
 @media screen and (max-width: 425px) {
-  .place__website_url-heading {
+  .place__url-heading {
     padding: 0 16px 0 16px;
   }
 }
