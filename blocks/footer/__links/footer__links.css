@@ -1,0 +1,29 @@
+.footer__links {
+  margin: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 1184px;
+}
+@media screen and (max-width: 768px) {
+  .footer__links {
+    max-width: 720px;
+  }
+}
+@media screen and (max-width: 608px) {
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+}
+@media screen and (max-width: 425px) {
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 186px;
+    flex-wrap: nowrap;
+  }
+}

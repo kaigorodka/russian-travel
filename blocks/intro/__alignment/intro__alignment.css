@@ -1,0 +1,10 @@
+.intro__alignment {
+  max-width: 690px;
+}
+@media screen and (max-width: 768px) {
+  .intro__alignment {
+    display: block;
+    margin: 0;
+    max-width: 720px;
+  }
+}

@@ -1,0 +1,19 @@
+.intro {
+  max-width: 984px;
+  display: flex;
+  margin: 0 auto;
+  padding: 88px 48px 0 48px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 88px 24px 0px 24px;
+    display: block;
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro {
+    padding: 64px 16px 0 16px;
+  }
+}
